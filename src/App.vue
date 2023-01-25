@@ -55,6 +55,16 @@ export default {
         </svg>
         <span>Copy</span>
         </button> -->
+        <div class="grid grid-cols-4 gap-4 border-8 border-indigo-600" >
+          <div>01</div>
+          <div>02</div>
+          <div>03</div>
+          <div>04</div>
+          <div>05</div>
+          <div>06</div>
+          <div>07</div>
+          <div>08</div>
+        </div>
     </div>
   </div>
 </template>
