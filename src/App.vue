@@ -9,6 +9,7 @@ export default {
     return{
       post: {
         longUrl: '',
+        shortUrl: '',
       },
     }
 
@@ -16,9 +17,11 @@ export default {
   methods: {
     shorten(){
       let longUrl= this.post.longUrl
+      let shortUrl= this.post.shortUrl
 
       axios.post('http://127.0.0.1:5000/api/url/shorten',{
         longUrl: longUrl,
+        shortUrl: shortUrl,
       }).then(response => {
         console.log(response)
       })
