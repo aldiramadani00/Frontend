@@ -19,13 +19,12 @@
           </div>
         </div>
       </form>
-      <br>
       <div class="flex flex-row-reverse">
         <div>
           <router-link to="/login"><button class="bg-gray-200 px-5 py-1 rounded-3xl">Daftar</button></router-link>
         </div>
         <div>
-          <router-link to="/login"><button class="bg-gray-200 px-5 py-1 rounded-3xl right-9">Back</button></router-link>
+          <router-link to="/login"><button class="bg-gray-200 px-5 py-1 rounded-3xl">Back</button></router-link>
         </div>
       </div> 
 </template>
